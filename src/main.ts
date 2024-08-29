@@ -4,7 +4,7 @@ import { createPinia } from 'pinia'
 import '/node_modules/primeflex/primeflex.css'
 import 'primeflex/themes/primeone-light.css'
 
-import { installComponents } from './components-wrapped/install'
+// import { installComponents } from './components-wrapped/install'
 
 // import 'primeflex/themes/primeone-dark.css'
 import PrimeVue from 'primevue/config'
@@ -35,10 +35,10 @@ app.use(
   }
 )
 // app.directive('ripple', Ripple)
-app.component('PrimeButton', Button)
+app.component('AppButton', Button)
 app.directive('styleclass', StyleClass)
 app.use(createPinia())
 app.use(router)
 
-installComponents(app)
+// installComponents(app)
 app.mount('#app')

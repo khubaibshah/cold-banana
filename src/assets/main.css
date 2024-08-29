@@ -1,4 +1,113 @@
 @import './base.css';
+
+/* Style for the container holding both the images and the navigation */
+.surface-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Aligns the image container to the left and navigation to the right */
+}
+
+/* Container for both images */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Vector image as the background */
+.vector-image {
+  width: auto;
+  height: auto;
+  position: relative;
+  z-index: 2 !important;
+}
+
+/* Chilled grape image positioned on top of the vector image */
+.chilled-grape-image {
+  position: absolute;
+  top: 38%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 2 !important;
+}
+
+/* Login button styles */
+.login-button {
+  background: linear-gradient(to right, #63e2c6, #5a73ed);
+  color: white;
+  padding-right: 60px !important;
+  padding-left: 60px !important;
+  border-radius: 50px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.login-button:hover {
+  opacity: 0.8;
+}
+
+/* Style for the navigation items */
+ul.list-none>li {
+  margin-right: 30px;
+  /* Adjust the space between each navigation item */
+}
+
+/* Specific style for the last item (Login button) */
+ul.list-none>li:last-child {
+  margin-left: 50px;
+  /* Extra space before the Login button */
+}
+
+.read-more {
+  height: 7vh;
+  background: linear-gradient(to right, #63e2c6, #5a73ed);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 50px !important;
+  /* text-align: center; */
+  /* text-decoration: none; */
+  display: inline-block;
+  position: absolute;
+  /* bottom: 12rem; */
+  left: 55vh;
+  top: 20vh;
+  /* transform: translateX(50%); */
+  /* width: 16%; */
+  padding-right: 10vh !important;
+  padding-left: 10vh !important;
+}
+
+.read-more:hover {
+  opacity: 0.8;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* Adjust as needed */
+  text-align: center;
+  /* Centers the text image horizontally */
+}
+
+.hero-vector {
+  position: absolute;
+  top: -20vh;
+  left: 86vh;
+  z-index: 1;
+  /* Ensure it’s behind the text image */
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  /* Ensure it’s above the vector image */
+  display: block;
+  margin-left: 55vh;
+  /* Adjust based on your design needs */
+}
+
 /* 
 #app {
   max-width: 1280px;

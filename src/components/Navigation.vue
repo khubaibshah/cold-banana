@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import Hero from '@/components/Hero.vue'
+import IntroSection from './IntroSection.vue'
+</script>
+
 <template>
   <div class="min-h-screen flex flex-column">
     <div
@@ -72,14 +77,27 @@
         </ul>
       </div>
     </div>
+
     <div class="p-5 flex flex-column flex-auto">
       <div class="border-round surface-section flex-auto">
-        <!-- router view can go here -->
+        <Hero />
+      </div>
+
+      <!-- Add margin between Hero and IntroSection -->
+      <div class="mt-7">
+        <!-- You can adjust the class or inline style to control spacing -->
+        <IntroSection />
       </div>
     </div>
   </div>
 </template>
 <style scoped>
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
 /* Style for the container holding both the images and the navigation */
 .surface-overlay {
   display: flex;
