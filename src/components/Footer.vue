@@ -1,5 +1,4 @@
 <template>
-  <!-- <div class="footer-container"> -->
   <img src="../assets/img/footer-vector.png" alt="Footer Vector" height="40" class="vector-image" />
 
   <div class="surface-section px-4 md:px-6 lg:px-8">
@@ -62,22 +61,11 @@
             >
               <i class="pi pi-linkedin text-xl"></i>
             </a>
-            <a
-              class="icon-link cursor-pointer text-500 ml-3 transition-colors transition-duration-150 hover:text-700"
-            >
-              <i class="pi pi-instagram text-xl"></i>
-            </a>
-            <a
-              class="icon-link cursor-pointer text-500 ml-3 transition-colors transition-duration-150 hover:text-700"
-            >
-              <i class="pi pi-youtube text-xl"></i>
-            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- </div> -->
 </template>
 
 <style scoped>

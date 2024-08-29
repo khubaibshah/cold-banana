@@ -6,7 +6,7 @@ import Footer from './Footer.vue'
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-column">
+  <div class="min-h-screen flex flex-column fadein animation-duration-1000">
     <div
       class="surface-overlay flex align-items-center justify-content-between relative lg:static"
       style="min-height: 80px"

@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 py-8 md:px-6 lg:px-8">
+  <div class="px-4 py-8 md:px-6 lg:px-8 zoomin animation-duration-1000">
     <div class="grid -mt-3 -ml-3 -mr-3">
       <div v-for="product in showProducts" :key="product.id" class="col-12 md:col-6 lg:col-4">
         <div class="p-2">
@@ -52,6 +52,7 @@ import { useProductsStore } from '@/stores/ProductsStore'
 const ProductsStore = useProductsStore()
 
 const showProducts = ref()
+// Get request from Products Service
 const getProductDetails = async () => {
   try {
     const response = await ProductService.getProducts()
