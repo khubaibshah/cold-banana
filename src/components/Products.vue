@@ -10,6 +10,9 @@
                 class="surface-card text-900 shadow-2 px-3 py-2 absolute stock-badge"
                 >In Stock</span
               >
+              <span v-else class="surface-card text-900 shadow-2 px-3 py-2 absolute stock-badge"
+                >Restock soon</span
+              >
               <img
                 :src="product.image"
                 :alt="product.product_name"
