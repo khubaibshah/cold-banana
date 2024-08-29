@@ -38,9 +38,8 @@
     <AppButton
       label="Load More"
       severity="danger"
-      style="color: purple"
+      style="color: #5c6dde; font-weight: bold"
       class="text-2xl"
-      @click="loadProducts"
     />
   </div>
 </template>
@@ -53,10 +52,6 @@ import { useProductsStore } from '@/stores/ProductsStore'
 const ProductsStore = useProductsStore()
 
 const showProducts = ref()
-
-const loadProducts = () => {
-  console.log('test')
-}
 const getProductDetails = async () => {
   try {
     const response = await ProductService.getProducts()

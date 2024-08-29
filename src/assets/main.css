@@ -48,13 +48,13 @@
 }
 
 /* Style for the navigation items */
-ul.list-none > li {
+ul.list-none>li {
   margin-right: 30px;
   /* Adjust the space between each navigation item */
 }
 
 /* Specific style for the last item (Login button) */
-ul.list-none > li:last-child {
+ul.list-none>li:last-child {
   margin-left: 50px;
   /* Extra space before the Login button */
 }
@@ -105,40 +105,5 @@ ul.list-none > li:last-child {
   /* Ensure it’s above the vector image */
   display: block;
   margin-left: 55vh;
-  /* Adjust based on your design needs */
+
 }
-
-/* 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-} */

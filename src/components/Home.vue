@@ -75,7 +75,7 @@ import Footer from './Footer.vue'
       </div>
     </div>
 
-    <div class="p-5 flex flex-column flex-auto">
+    <div class="p-5 pb-0 flex flex-column flex-auto">
       <div class="border-round surface-section flex-auto">
         <Hero />
       </div>
