@@ -2,7 +2,7 @@ import Home from '@/components/Home.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHistory('http://localhost:5173'),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
