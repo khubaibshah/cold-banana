@@ -6,8 +6,15 @@ Chilled Grape
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
+Introduction
+------------
 
 Welcome to **Chilled Grape**! This project is an e-commerce application that showcases a variety of products with a modern and responsive design. Our platform offers an engaging and user-friendly experience for browsing and purchasing products.
+
+Live Site
+--------
+
+https://chilled-grape.netlify.app
 
 Technologies Used
 -----------------
@@ -121,10 +128,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contact
 -------
 
-For any questions or feedback, please reach out to us at contact@chilledgrape.com.
+For any questions or feedback, please reach out to me at Khubaib_12@hotmail.com.
 
 
-Live Site
---------
 
-https://chilled-grape.netlify.app
