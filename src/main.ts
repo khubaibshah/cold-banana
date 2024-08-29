@@ -14,7 +14,7 @@ import StyleClass from 'primevue/styleclass'
 import App from './App.vue'
 import router from './router'
 
-import Button from 'primevue/button'
+import PrimeButton from 'primevue/button'
 
 import 'primeicons/primeicons.css'
 // import Ripple from 'primevue/ripple'
@@ -34,9 +34,8 @@ app.use(
     }
   }
 )
-// app.directive('ripple', Ripple)
-app.component('AppButton', Button)
 app.directive('styleclass', StyleClass)
+app.component('AppButton', PrimeButton)
 app.use(createPinia())
 app.use(router)
 

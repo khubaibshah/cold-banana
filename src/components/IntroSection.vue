@@ -5,6 +5,7 @@
       <div class="col text-content">
         <img src="../assets/img/text.png" alt="text image" />
       </div>
+
       <div class="col plant-image">
         <img src="../assets/img/plant.png" alt="plant image" />
       </div>
@@ -14,7 +15,7 @@
 
 <style scoped>
 .intro-section {
-  margin-top: 5rem; /* Adjust this value to control the space between Hero and this section */
+  margin-top: 5rem;
 }
 
 .grid {
@@ -26,7 +27,7 @@
 
 .text-content img,
 .plant-image img {
-  width: 75%; /* Adjust as needed to control the size of the images */
+  width: 75%;
   height: auto;
   top: 100vh !important;
 }

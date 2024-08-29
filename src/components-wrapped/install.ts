@@ -30,11 +30,10 @@ import SelectButton from 'primevue/selectbutton'
 
 import InputGroup from 'primevue/inputgroup'
 import InputGroupAddon from 'primevue/inputgroupaddon'
-import FloatLabel from 'primevue/floatLabel'
 import Rating from 'primevue/rating'
 
 // style classes
-import Ripple from 'primevue/ripple'
+
 import StyleClass from 'primevue/styleclass'
 
 function installComponents(vue: App) {
@@ -59,14 +58,13 @@ function installComponents(vue: App) {
   vue.component('AppCarousel', Carousel)
   vue.component('AppInputGroup', InputGroup)
   vue.component('AppInputGroupAddon', InputGroupAddon)
-  vue.component('AppFloatLabel', FloatLabel)
+
   vue.component('DataView', DataView)
   //   vue.component('DataViewLayoutOptions', DataViewLayoutOptions)
   vue.component('SelectButton', SelectButton)
   vue.component('PrimeRating', Rating)
   vue.component('PrimeToast', Toast)
   vue.directive('styleclass', StyleClass)
-  vue.directive('ripple', Ripple)
 }
 
 export { installComponents }

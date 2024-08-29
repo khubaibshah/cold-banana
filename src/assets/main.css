@@ -48,13 +48,13 @@
 }
 
 /* Style for the navigation items */
-ul.list-none>li {
+ul.list-none > li {
   margin-right: 30px;
   /* Adjust the space between each navigation item */
 }
 
 /* Specific style for the last item (Login button) */
-ul.list-none>li:last-child {
+ul.list-none > li:last-child {
   margin-left: 50px;
   /* Extra space before the Login button */
 }

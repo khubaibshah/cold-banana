@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import Hero from '@/components/Hero.vue'
 import IntroSection from './IntroSection.vue'
+import Products from './Products.vue'
+import Footer from './Footer.vue'
 </script>
 
 <template>
@@ -28,7 +30,6 @@ import IntroSection from './IntroSection.vue'
         >
           <li>
             <a
-              v-ripple
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-900 hover:text-900 hover:surface-100 font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
             >
               <span class="font-bold w-10">Home</span>
@@ -36,7 +37,6 @@ import IntroSection from './IntroSection.vue'
           </li>
           <li class="lg:relative">
             <a
-              v-ripple
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-900 hover:text-900 hover:surface-100 font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
               v-styleclass="{
                 selector: '@next',
@@ -52,7 +52,6 @@ import IntroSection from './IntroSection.vue'
           </li>
           <li>
             <a
-              v-ripple
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-900 hover:text-900 hover:surface-100 font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
             >
               <span class="font-bold w-10">Blog</span>
@@ -60,7 +59,6 @@ import IntroSection from './IntroSection.vue'
           </li>
           <li>
             <a
-              v-ripple
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-900 hover:text-900 hover:surface-100 font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
             >
               <span class="font-bold w-10">Pricing</span>
@@ -68,7 +66,6 @@ import IntroSection from './IntroSection.vue'
           </li>
           <li>
             <a
-              v-ripple
               class="login-button flex px-6 p-3 lg:px-3 lg:py-2 align-items-center font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
             >
               <span class="font-bold w-10">Login</span>
@@ -85,8 +82,9 @@ import IntroSection from './IntroSection.vue'
 
       <!-- Add margin between Hero and IntroSection -->
       <div class="mt-7">
-        <!-- You can adjust the class or inline style to control spacing -->
         <IntroSection />
+        <Products class="mb-8" />
+        <Footer />
       </div>
     </div>
   </div>
