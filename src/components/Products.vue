@@ -42,7 +42,7 @@
       label="Load More"
       severity="info"
       style="font-weight: bold"
-      class="text-2xl"
+      class="text-2xl ripple-class"
       outlined
     />
   </div>
@@ -72,11 +72,8 @@ onMounted(() => {
 })
 </script>
 <style scoped>
-.box {
-  padding: 2rem;
-  border-radius: 10px;
-  width: 110px;
-  text-align: center;
+.ripple-class {
+  --p-ripple-background: linear-gradient(to right, #63e2c6, #5a73ed);
 }
 .product-card {
   height: 53vh;
