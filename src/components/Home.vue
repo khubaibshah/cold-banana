@@ -30,6 +30,7 @@ import Footer from './Footer.vue'
         >
           <li>
             <a
+              v-ripple
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-900 hover:text-900 hover:surface-100 font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
             >
               <span class="font-bold w-10">Home</span>
@@ -37,21 +38,15 @@ import Footer from './Footer.vue'
           </li>
           <li class="lg:relative">
             <a
+              v-ripple
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-900 hover:text-900 hover:surface-100 font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
-              v-styleclass="{
-                selector: '@next',
-                enterClass: 'hidden',
-                enterActiveClass: 'scalein',
-                leaveToClass: 'hidden',
-                leaveActiveClass: 'fadeout',
-                hideOnOutsideClick: true
-              }"
             >
               <span class="font-bold w-10">About</span>
             </a>
           </li>
           <li>
             <a
+              v-ripple
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-900 hover:text-900 hover:surface-100 font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
             >
               <span class="font-bold w-10">Blog</span>
@@ -59,6 +54,7 @@ import Footer from './Footer.vue'
           </li>
           <li>
             <a
+              v-ripple
               class="flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-900 hover:text-900 hover:surface-100 font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
             >
               <span class="font-bold w-10">Pricing</span>
@@ -66,6 +62,7 @@ import Footer from './Footer.vue'
           </li>
           <li>
             <a
+              v-ripple
               class="login-button flex px-6 p-3 lg:px-3 lg:py-2 align-items-center font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple"
             >
               <span class="font-bold w-10">Login</span>

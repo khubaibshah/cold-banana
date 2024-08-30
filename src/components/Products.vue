@@ -3,7 +3,7 @@
     <div class="grid -mt-3 -ml-3 -mr-3">
       <div v-for="product in showProducts" :key="product.id" class="col-12 md:col-6 lg:col-4">
         <div class="p-2">
-          <div class="shadow-2 p-4 surface-card border-round-xl product-card">
+          <div class="shadow-2 p-4 surface-card border-round-xl product-card" v-ripple>
             <div class="relative mb-3">
               <span
                 v-if="product.stock_count > 0"
@@ -40,9 +40,10 @@
     </div>
     <AppButton
       label="Load More"
-      severity="danger"
-      style="color: #5c6dde; font-weight: bold"
+      severity="info"
+      style="font-weight: bold"
       class="text-2xl"
+      outlined
     />
   </div>
 </template>
@@ -54,6 +55,7 @@ import ProductService from '../service/ProductService'
 import { useProductsStore } from '@/stores/ProductsStore'
 const ProductsStore = useProductsStore()
 
+const value = ref(null)
 const showProducts = ref()
 // Get request from Products Service
 const getProductDetails = async () => {
@@ -70,6 +72,12 @@ onMounted(() => {
 })
 </script>
 <style scoped>
+.box {
+  padding: 2rem;
+  border-radius: 10px;
+  width: 110px;
+  text-align: center;
+}
 .product-card {
   height: 53vh;
   display: flex;

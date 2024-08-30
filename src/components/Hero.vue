@@ -13,7 +13,6 @@
       src="../assets/img/left-vector.png"
       alt="under hero vector image right"
     />
-
     <a
       class="read-more flex px-6 p-3 lg:px-3 lg:py-2 align-items-center font-bold border-round cursor-pointer transition-colors transition-duration-150 p-ripple text-2xl"
     >
